@@ -21,6 +21,12 @@
 /*head*/
 .top{
 	margin-top: 100px;
+	transition: 1s;
+}
+
+.top:hover{
+	background-color: darkgrey;
+	transition: 5s;
 }
 
 .free{
@@ -203,7 +209,7 @@ footer i{
 
 @media (min-width: 768px){
 	.top{
-		margin-top: 50px;
+		margin-top: 48px;
 	}
 
 	.cardLine>div{
